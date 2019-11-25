@@ -54,8 +54,7 @@ const Footer = () => (
             <Logo />
         </Link>
         <FooterAuthor href="https://marguerite.io">
-            © 2019 — Designed & developed by Marguerite Roth
-            <FooterSpooch className="FooterSpooch" src={spooch} />
+            © 2019 — Theme designed & developed by Marguerite Roth
         </FooterAuthor>
     </FooterContainer>
 )
