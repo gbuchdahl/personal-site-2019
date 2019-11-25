@@ -5,6 +5,14 @@ module.exports = {
     author: `Gabriel Buchdahl`,
   },
   plugins: [
+    // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-145039616-1",
+        head: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -42,13 +50,6 @@ module.exports = {
         icon: `src/images/gwbicon.png`, // This path is relative to the root of the site.
       },
     },
-    // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-145039616-1",
-        head: true,
-      },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
