@@ -76,19 +76,19 @@ const Header = () => (
     <HeaderContainer>
         <HeaderContent>
             <Link to="/">
-                <Logo/>
+                <Logo />
             </Link>
             <HeaderLinks>
-                <Link
+                {/* <Link
                     activeClassName="Link--is-active"
                     to="/work">
                     Work
-                </Link>
-                <Link
+                </Link> */}
+                {/* <Link
                     activeClassName="Link--is-active"
                     to="/blog">
                     Blog
-                </Link>
+                </Link> */}
             </HeaderLinks>
         </HeaderContent>
     </HeaderContainer>

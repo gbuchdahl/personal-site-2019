@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -41,11 +40,6 @@ const FooterAuthor = styled("a")`
         from {transform: rotate(0deg);}
         to {transform: rotate(360deg);}
     }
-`
-
-const FooterSpooch = styled("img")`
-    max-width: 33px;
-    margin-top: 0.25em;
 `
 
 const Footer = () => (

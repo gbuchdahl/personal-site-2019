@@ -11,8 +11,10 @@ import About from "components/About";
 import Layout from "components/Layout";
 import ProjectCard from "components/ProjectCard";
 
+//    padding-top: 2.5em;
+// THAT WAS IN THE HERO IF YOU EVER WANT TO PUT IT BACK 
+
 const Hero = styled("div")`
-    padding-top: 2.5em;
     padding-bottom: 3em;
     margin-bottom: 6em;
     max-width: 830px;
