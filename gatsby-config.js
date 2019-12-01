@@ -3,6 +3,7 @@ module.exports = {
     title: `Gabriel Buchdahl`,
     description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
     author: `Gabriel Buchdahl`,
+    siteURL: `https://buchdahl.com`,
   },
   plugins: [
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
@@ -14,6 +15,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-image`,
