@@ -3,7 +3,7 @@ module.exports = {
     title: `Gabriel Buchdahl`,
     description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
     author: `Gabriel Buchdahl`,
-    siteURL: `https://buchdahl.com`,
+    siteUrl: `https://buchdahl.com`,
   },
   plugins: [
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
