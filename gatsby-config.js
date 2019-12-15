@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gabriel Buchdahl`,
-    description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
+    description: `Hi! I'm Gabe, a student studying Math & CS at Yale. This summer, I'll be a SWE intern at MongoDB. Check out my GitHub and my LinkedIn here! 😊`,
     author: `Gabriel Buchdahl`,
     siteUrl: `https://buchdahl.com`,
   },
