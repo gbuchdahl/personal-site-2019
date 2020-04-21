@@ -13,8 +13,8 @@ const WorkTitle = styled("h1")`
 const Work = ({ projects, meta }) => (
     <>
         <Helmet
-            title={`Work | Prist, Gatsby & Prismic Starter`}
-            titleTemplate={`%s | Work | Prist, Gatsby & Prismic Starter`}
+            title={`Work | Gabriel Buchdahl`}
+            titleTemplate={`%s | Work | Gabriel Buchdahl`}
             meta={[
                 {
                     name: `description`,
@@ -76,7 +76,7 @@ export default ({ data }) => {
     if (!projects) return null;
 
     return (
-        <Work projects={projects} meta={meta}/>
+        <Work projects={projects} meta={meta} />
     )
 }
 
