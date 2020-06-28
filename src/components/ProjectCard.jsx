@@ -119,7 +119,7 @@ const ProjectCardImageContainer = styled("div")`
     background: ${colors.grey200};
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     overflow: hidden;
     position: relative;
     padding-left: 2em;
@@ -157,7 +157,7 @@ const ProjectCardImageContainer = styled("div")`
     }
 `
 
-const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
+const ProjectCard = ({ category, title, description, thumbnail, uid }) => (
     <ProjectCardContainer to={`/work/${uid}`}>
         <ProjectCardContent className="ProjectCardContent">
             <ProjectCardCategory>
@@ -174,7 +174,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">
-            <img src={thumbnail.url} alt={title[0].text}/>
+            <img src={thumbnail.url} alt={title[0].text} />
         </ProjectCardImageContainer>
     </ProjectCardContainer>
 )
