@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Gabriel Buchdahl`,
-    description: `Hi! I'm Gabe, a student studying Math & CS at Yale. This summer, I'll be a SWE intern at MongoDB. Check out my GitHub and my LinkedIn here! 😊`,
+    description: `Hi! I'm Gabriel Buchdahl, a student studying Math & CS at Yale. This summer, I'll be a SWE intern at MongoDB. Check out my GitHub and my LinkedIn here! 😊`,
     author: `Gabriel Buchdahl`,
     siteUrl: `https://buchdahl.com`,
   },
