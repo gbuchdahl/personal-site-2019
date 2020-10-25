@@ -18,7 +18,7 @@ const HeaderContent = styled("div")`
 const HeaderLinks = styled("div")`
     display: grid;
     grid-template-columns: repeat(2, auto);
-    grid-gap: 7em;
+    grid-gap: 2em;
     justify-content: flex-end;
     width: 100%;
     max-width: 200px;
@@ -37,7 +37,7 @@ const HeaderLinks = styled("div")`
         border-bottom: 3px solid transparent;
         font-weight: 600;
         font-size: 0.95em;
-        height: 100%;
+        height: 40px;
         padding-bottom: 1.25em;
         padding-top: 0.25em;
         display: block;
@@ -79,16 +79,16 @@ const Header = () => (
                 <Logo />
             </Link>
             <HeaderLinks>
-                {/* <Link
+                <Link
                     activeClassName="Link--is-active"
                     to="/work">
                     Work
-                </Link> */}
-                {/* <Link
+                </Link>
+                <Link
                     activeClassName="Link--is-active"
                     to="/blog">
                     Blog
-                </Link> */}
+                </Link>
             </HeaderLinks>
         </HeaderContent>
     </HeaderContainer>
