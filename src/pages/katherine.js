@@ -5,7 +5,7 @@ import moment from "moment"
 
 const Background = styled.div`
 background-image:
-    linear-gradient(to right, #2C5364AA, #203A43AA, #0F2027AA), url("${props=> props.url}");
+    linear-gradient(to right, #2C5364AA, #203A43AA, #0F2027AA), url("${props => props.url}");
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
@@ -31,26 +31,27 @@ const Bigg = styled.h1`
 `
 
 
-const Katherine = ({background}) => {
+const Katherine = ({ background }) => {
 
   const now = new moment();
-  const end = new moment("20210131", "YYYYMMDD");
+  const end = new moment("20210123", "YYYYMMDD");
   const timestr = moment.duration(end.diff(now)).as('days')
 
 
   return (
-  <Background url={background}>
-    <Hero>
-      <Bigg>{~~timestr} days</Bigg>
-    </Hero>
-    <embed></embed>
+    <Background url={background}>
+      <Hero>
+        <Bigg>{~~timestr} days</Bigg>
+      </Hero>
+      <embed></embed>
 
-  </Background>
-)}
+    </Background>
+  )
+}
 
 
 
-export default ({data}) => {
+export default ({ data }) => {
   const photos = data.prismic.allKatherinephotoss.edges;
   const background = photos[~~(photos.length * Math.random())].node.photo.url;
   if (!background) return null;
